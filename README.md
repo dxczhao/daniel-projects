@@ -18,4 +18,3 @@ Binary classification of Pima Indian Diabetes data using multiple classifiers, i
 
 ### MNIST
 Linear neural network that classifies MNIST handwritten digits. I experimented with Tensorflow and parameter optimization.
->>>>>>> 02959143229f736f5e87cfbd2f38034817b7667f
