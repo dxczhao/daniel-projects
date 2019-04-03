@@ -92,8 +92,5 @@ def plot_HR(temp, lum, plotfilename=''):
     ax1.scatter(temp, lum, s=2,c=temp, cmap=my_cmap, norm=matplotlib.colors.LogNorm())
     if plotfilename=='':
         plt.show()
-    else:
-        print('Plot saved to %s' % (plotfilename))
-        plt.savefig(plotfilename, format='pdf')
     return plt
     

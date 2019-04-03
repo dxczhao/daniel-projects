@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from plotter1 import plot_HR
+from plotter import plot_HR
 def load_data(source):
         if source=='nasa': df = pd.read_csv("data//nasa-data.csv")
         elif source=='wiki': df = pd.read_csv("data//wiki-data.csv")
@@ -18,6 +18,7 @@ temp,lum=load_data(source)
 # if plotfilanme is given, save diagram as a PDF file
 #plt = plot_HR(temp, lum, plotfilename)
 print('Plotting H-R diagram...')
-plt = plot_HR(temp,lum)
-
+plt = plot_HR(temp,lum, 'H-R combined diagram')
+print('Plot saved to %s' % (plotfilename))
+plt.savefig(plotfilename, format='pdf')
 
