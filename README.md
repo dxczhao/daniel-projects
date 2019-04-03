@@ -1,5 +1,5 @@
 # daniel-projects
-<<<<<<< HEAD
+
 Random tidbits of code and my ideas, for your perusal.
 =======
 Hi everyone! I'm Daniel Zhao, a high school student with experience in app development, machine learning, and computational biology.
@@ -18,4 +18,3 @@ Binary classification of Pima Indian Diabetes data using multiple classifiers, i
 
 ### MNIST
 Linear neural network that classifies MNIST handwritten digits. I experimented with Tensorflow and parameter optimization.
->>>>>>> 02959143229f736f5e87cfbd2f38034817b7667f
