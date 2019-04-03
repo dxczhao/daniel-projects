@@ -1,5 +1,5 @@
 # daniel-projects
-<<<<<<< HEAD
+
 Random tidbits of code and my ideas, for your perusal.
 =======
 Hi everyone! I'm Daniel Zhao, a high school student with experience in app development, machine learning, and computational biology.
