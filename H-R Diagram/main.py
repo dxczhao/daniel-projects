@@ -19,6 +19,7 @@ temp,lum=load_data(source)
 #plt = plot_HR(temp, lum, plotfilename)
 print('Plotting H-R diagram...')
 plt = plot_HR(temp,lum, 'H-R combined diagram')
+plt.title("H-R Diagram", pad = 50)
 print('Plot saved to %s' % (plotfilename))
-plt.savefig(plotfilename, format='pdf')
+plt.savefig(plotfilename, format='pdf', bbox_inches = 'tight', pad_inches = 0.2)
 
