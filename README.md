@@ -18,3 +18,6 @@ Binary classification of Pima Indian Diabetes data using multiple classifiers, i
 
 ### MNIST
 Linear neural network that classifies MNIST handwritten digits. I experimented with Tensorflow and parameter optimization.
+
+### Tolkien Generator
+Using the Silmarillion as source text, I trained a tensor2tensor model based on the Transformer architecture from Google and generates paragraphs of text.
