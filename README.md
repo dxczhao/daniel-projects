@@ -4,7 +4,7 @@ Random tidbits of code and my ideas, for your perusal.
 =======
 Hi everyone! I'm Daniel Zhao, a student at Harvard College with experience in software engineering, machine learning, and computational biology.
 
-This repo contains random tidbits of code and my ideas, for your perusal. I've included some math problems I worked out in C++ for USACO, a CS competition. There are also different models and image classifiers I've fiddled around with.
+This repo contains random tidbits of code and my ideas, for your perusal. I've included some different models and image classifiers I've fiddled around with.
 
 ## List of projects
 
